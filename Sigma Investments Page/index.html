@@ -10,8 +10,10 @@
     <meta name="author" content="DEDX3" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
 
     <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicons/favicon-32x32.png" />
@@ -38,35 +40,49 @@
 
 
 <body>
+    <!-- ************************************************************************************************************************
+                                                              Navbar header
+
+    *****************************************************************************************************************************-->
     <header class="main-header">
         <nav class="navbar navbar-expand-xl">
-            <div class="container container-navbar">
-                <a class="navbar-brand" href="#">
-                    <div class="brand-icon">
-                        <i data-icon="sitelogo"></i>
-                    </div>
-                     <div class="brand-name">Sigma Investments</div>
-                </a>
+            
+                <div class="container container-navbar">
+                    <a class="navbar-brand" href="#">
+                        <div class="brand-icon">
+                            <!-- <i data-icon="sitelogo"></i>  OLD LOGO -->
+                            <!-- <i data-icon="sitelogo"></i> -->
+                            <img src="./images/logo.png" alt="logo" >
+                        </div>
+                        <div class="brand-name">Sigma Investments</div>
+                    </a>
                      <div class="navbar-collapse" id="mainNavbar">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#about-section">About</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#our-plan">Our Plan</a>
+                        </li> 
+                        <li class="nav-item">
                             <a class="nav-link" href="#services-section">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#trading-signal-section">Trading Strategy</a>
+                            <a class="nav-link" href="#trading-signal-section">Trading Experiences</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#our-plan">Our Plan</a>
-                        </li> 
                         
+                        <!-- Live chat feature -->
                         <li class="nav-item">
-                            <!-- <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLScL5mjpbtJ-Ojpyyi50R2MZDq6M029HfhRNoTbwS8BOrPoYwg/viewform?embedded=true">Request</a> -->
-                            <a class="nav-link" ><i class="material-icons md-36">phone</i> 8750912170</a>
-                            
-                        </li>
+                            <a  href="https://wa.me/9821222270" class="whatsapp_float" target="_blank"rel="noopener noreferrer">
+                        <i class="fa fa-whatsapp whatsapp-icon"></i>
+                            </a>
+                            <div class="buy-membership text-center">
+                                <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScL5mjpbtJ-Ojpyyi50R2MZDq6M029HfhRNoTbwS8BOrPoYwg/viewform?embedded=true" width="640" height="819" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+        
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScL5mjpbtJ-Ojpyyi50R2MZDq6M029HfhRNoTbwS8BOrPoYwg/viewform?embedded=true" class="btn primary-btn" style="width: 100px;height: 50px;">Connect</a>
+                            </div>
+                    
+                            </li>
                         
                     </ul>
                 </div>
@@ -89,6 +105,10 @@
         </nav>
     </header>
 
+    <!-- **************************************************************************************************************************
+                                                                Hero Section
+    ******************************************************************************************************************************* -->
+
     <main id="home" class="main-hero">
         <div class="container">
             <div class="row">
@@ -101,7 +121,7 @@
                         <div class="ps-3">
                             <p  style="font-size:2em">
                                 Welcome to the World of Investments. 
-                                We at Sigma Investments are committed to delivering the best returns on your hard-earned money.
+                                We at Sigma Investments are committed to deliver the best returns on your hard-earned money.
                                 Begin investing with a minimum of 10,000/- and up.                  
                             
                             </p>
@@ -126,6 +146,11 @@
         </div>
     </main>
 
+    <!-- **************************************************************************************************************
+                                                            
+                                                                About Us
+
+    *******************************************************************************************************************-->
     <div id="about-section" class="blocks-background py-large">
         <section class="about-us">
             <div class="container">
@@ -152,6 +177,13 @@
                     </div>
                 </div>
                 
+
+
+    <!-- **************************************************************************************************************
+                
+                                                            Our Plan
+
+    *******************************************************************************************************************-->
                 <div class="row gy-5" id="our-plan">
                     <section class="our-plan">
                       <div class="ccol-md-10 col-lg-8 text-left">
@@ -161,11 +193,11 @@
                             </div>
 
                             <ul >
-                                <li class="li-tc six "style="font-size:2rem">10,000  , 50% Profit P/A </li>
-                                  <li class="li-tc six" style="font-size:2rem">20,000 , 50% Profit P/A</li>   
-                                  <li class="li-tc six" style="font-size:2rem">50,000 , 60% Profit P/A</li> 
-                                  <li class="li-tc six" style="font-size:2rem">100,000 , 70% Profit P/A</li>
-                                  <li class="li-tc six" style="font-size:2rem">2,00,000 & above 80% Profit P/A</li> 
+                                <li class="li-tc six "style="font-size:2rem">10,000  , 50% Profit P/A. </li>
+                                  <li class="li-tc six" style="font-size:2rem">20,000 , 50% Profit P/A.</li>   
+                                  <li class="li-tc six" style="font-size:2rem">50,000 , 60% Profit P/A.</li> 
+                                  <li class="li-tc six" style="font-size:2rem">100,000 , 70% Profit P/A.</li>
+                                  <li class="li-tc six" style="font-size:2rem">2,00,000 & above 80% Profit P/A.</li> 
                             </ul>
                          </section>
                     </div>
@@ -174,6 +206,58 @@
         </section>
     </div>
 
+
+    <!-- *****************************************************************************************************************************
+    
+                                                          Our Vision Our Mission
+
+      ********************************************************************************************************************************    -->
+
+
+
+
+      <div id="mission-section" class="wave-background">
+        <section class="services py-large">
+            <div class="container">
+                <div class="section-title">
+                    <h3 class="heading-secondary large">Our Mission & Our Vision</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card-wrap">
+                        <div class="service-card">
+                            <h4 class="service-card-title">Our Mission</h4>
+                            <p class="service-card-desc small">
+                                To revolutionise Stocks and the crypto world together,
+                                 we are working on our decentralised exchange, as well as our blockchain,
+                                  and will eventually launch our Nefts and gaming platform.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service-card-wrap">
+                        <div class="service-card">
+                            <!-- <div class="service-card-img" ></div> -->
+
+                            <h4 class="service-card-title">Our Vision</h4>
+                            <p class="service-card-desc small">
+                                When we envision the future of investing, 
+                                we imagine a place in which investors may engage easily while remaining confident in their investments.
+                                We foresee an industry in which developers have access to as many marketplaces as 
+                                feasible while also providing genuine technology guarantees that their products are secure.
+                            </p>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+        </section>
+    </div>    
+
+
+
+
+      <!-- *****************************************************************************************
+                        Our Future Services Section
+
+    *************************************************************************************************-->
     <div id="services-section" class="wave-background">
         <section class="services py-large">
             <div class="container">
@@ -277,11 +361,14 @@
         </section>
     </div>
 
+    <!-- *******************************************************************************************************************
+                                Our Trading Strategies
+    *************************************************************************************************************************-->
     <div id="trading-signal-section" class="wave-background">
         <section class="signals py-large">
             <div class="container">
-                <div class="section-title text-lg-end">
-                    <h2 class="heading-secondary large">Our Trading Strategy</h2>
+                <div class="section-title text-center">
+                    <h3 class="heading-secondary large">Our Trading Experiences</h2>
                 </div>
             </div>
             <div class="signals-inner">
@@ -290,12 +377,15 @@
                         <div class="col-lg-6 offset-lg-6">
                             <div class="signal-text"  >
                                 <p style="font-size:2em">
-                                    Investing and trading in cryptos and stocks is challenging, but it becomes effortless when you invest with an experienced group.
+                                    Investing and trading in cryptos and stocks is challenging,
+                                     but it becomes effortless when you invest with an experienced group.</p>
 </p>
-                                    <p style="font-size:2em">     We have seen many individuals lose their hard-earned money in these fields owing to their terrible attitude of being a gambler and perceiving it as a get-rich-fast scheme.</p>
-                                        <p style="font-size:2em"> Still, the game is understanding the market sentiment, studying the market's historical performance, and then investing.
-                                    
-                                    The company aims to provide our investors with a robust system to make investments and get timely returns.
+                                    <p style="font-size:2em">We have seen many individuals lose their hard-earned money
+                                         in these fields owing to their terrible attitude of being a gambler and
+                                          perceiving it as a get-rich-fast scheme.</p>
+                                    <p style="font-size:2em"> Still, the game is understanding the market sentiment, 
+                                        studying the market's historical performance, and then investing.
+                                     The company aims to provide our investors with a robust system to make investments and get timely returns.
                                 </p>
                                 <!-- <p style="font-size:2em">
                                     We suggest the  trades that are always backed up by Trading
@@ -304,22 +394,11 @@
                                     will also be supported by Fundamental Analysis.
                                 </p> -->
                                 <p class="additional-note" style="font-size:2em">
-                                    We also indicate the trading time, since some setups may be
-                                    short term (< 1 week), mid term (1-4 weeks) or long term (1-4 months).
+                                    <!-- We also indicate the trading time, since some setups may be
+                                    short term (< 1 week), mid term (1-4 weeks) or long term (1-4 months). -->
+                                    The company aims to provide our investors with a robust system to make investments and get timely returns.
                                 </p>
 
-                                <!-- <div class="d-block d-lg-none mb-5 mb-lg-0">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="signals-ex-img">
-                                                <img src="./images/matic-chart-light.png" alt="matic chart light"
-                                                    />
-                                                <img src="./images/matic-chart-dark.png" alt="matic chart dark"
-                                                     class="img-fluid img-contain dark-theme-comp" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
 
                             </div>
                         </div>
@@ -337,24 +416,24 @@
         </section>
     </div> 
     <section id="premium-section" class="membership py-large">
-        <div class="container">
+        <div class="container text-left>
             <div class="section-title ">
-                <h2 class="heading-secondary large">
+                <h2 class="heading-secondary large text-center">
                     Terms and Conditions
                 </h2>
                 <ul>
-                <li class="li-tc two" style="font-size:2em">For investing with us we need self-attested documents like Adhar and Pan Card.</li>
-                <li class="li-tc two" style="font-size:2em">The withdrawal cannot be done before 45 days in case of the cancellation of the deal.</li>
-                <li class="li-tc two" style="font-size:2em">  We accept payments only in the name of the company’s account via IMPS,NTF.</li>
-                <li class="li-tc two" style="font-size:2em">We have the right to change the percentage of returns as per the situation of the market by giving prior notice to the investors.</li>
-                <li class="li-tc two" style="font-size:2em">We sign MOU to secure your investments principal amount.</li>
+                <li class="li-tc two" style="font-size:2em">  For investing with us we need self-attested documents like Adhar and Pan Card.</li>
+                <li class="li-tc two" style="font-size:2em">  The withdrawal cannot be done before 45 days in case of the cancellation of the deal.</li>
+                <li class="li-tc two" style="font-size:2em">  We accept payments only in the name of the company’s account via IMPS,NEFT.</li>
+                <li class="li-tc two" style="font-size:2em">  We have the right to change the percentage of returns as per the situation of the market by giving prior notice to the investors.</li>
+                <li class="li-tc two" style="font-size:2em">  We sign MOU to secure your investments principal amount.</li>
            
            
             </ul>
             </div>
 
     
-    <section id="premium-section" class="membership py-large">
+    <section id="savings_investments" class="membership py-large">
         <div class="container">
             <!-- <div class="section-title text-center">
                 <h2 class="heading-secondary large">
