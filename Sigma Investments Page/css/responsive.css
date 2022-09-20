@@ -348,46 +348,13 @@
   }
 
   .navbar-brand .brand-name {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1;
   }
 
-  /* .navbar-brand .brand-icon {
-    width: 10px;
-    height: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  } */
   .brand-icon{
-    position: absolute;
-    top: 10px;
-    right: 100px;
-    
+    left: 85px;
   }
-  
-
-  /* .navbar-brand .brand-icon i {
-    width: 100%;
-    height: inherit;
-    -o-object-fit: contain;
-    object-fit: contain;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  } */
 
   .navbar-nav .nav-link {
     font-size: 14px;

@@ -377,27 +377,28 @@ html:not(.dark-theme) .dark-theme-comp {
   
 }
 
-/* .navbar-brand .brand-icon {
-  margin: left;
-  color: var(--primary-color);
-} */
-
 .navbar-brand .brand-icon {
   display: flex;
-  transform: scale(0.7);
   color:  #000;
   position: absolute;
-  margin-left:-2em;
-  margin-left:-20%;
+}
+.brand-icon{
+  width: 10rem;
+  height: 27rem;
+}
+.brand-icon>img{
+  transform: scale(0.3);
+  position: relative;
+  left: -17rem;
 
 }
-
 .navbar-brand .brand-name {
   font-size: 30px;
   font-weight: 700;
   color: #000;
-  /* position: relative; */
-  margin-left: 4em;
+  /* margin-left: 4em; */
+  position: relative;
+  left: 133px;
 }
 
 .main-header .navbar {
