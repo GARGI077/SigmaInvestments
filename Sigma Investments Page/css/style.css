@@ -257,10 +257,16 @@ li {
 }
 
 .li-tc.one:before {
-   content:"\f111"; 
+  content:"\f156";
+   /* content:"\f111";  */
+   /* content:"\f155"; for $ sign */
+   /* content:"\f135"; for rocket sign*/
+   /* content:"\f024";  for flag */
 }
 .li-tc.two:before {
-   content:"\f00c";
+   /* content:"\f00c"; */
+   content:"\f08d"; /*for pin*/
+    /* content:"\f02e"; /for bookmark */
 }
 .li-tc.three:before {
    content:"\f10c";
